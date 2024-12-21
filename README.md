@@ -1,10 +1,10 @@
-# Basic-Python-Projects
-
 # Python Basic Projects
 This repository contains beginner-friendly and intermediate-level Python projects, perfect for practicing programming skills or learning Python basics. Each project is designed to be simple yet insightful, covering various Python concepts like loops, conditionals, functions, and basic file handling.
 
+
 # Project Structure
 The projects are divided into two levels: Beginner and Intermediate. Each project is self-contained and has clear instructions for use.
+
 
 # Level 1: Beginner-Friendly Projects
 
@@ -27,6 +27,7 @@ Concepts Used: String manipulation, user input, formatting.
 #### Basic Text-Based Adventure Game
 Description: Creates a simple interactive story where the player makes decisions that affect the outcome.
 Concepts Used: Conditional statements, user input, storytelling.
+
 
 # Level 2: Intermediate Projects
 
@@ -54,27 +55,33 @@ Concepts Used: Lists, input/output, conditionals.
 ## Requirements
 This repository includes a requirements.txt file that lists any necessary dependencies. To install these dependencies, use:
 
-bash
-Copy code
-pip install -r requirements.txt  
+```bash
+pip install -r requirements.txt
+```
+
 Getting Started
 Clone the repository:
-bash
-Copy code
+```bash
 git clone https://github.com/kissssu/Basic-Python-Projects.git
 cd python-basic-projects  
+```
+
 Install dependencies (if any):
-bash
-Copy code
+```bash
 pip install -r requirements.txt  
+```
+
 Navigate to the project folder of your choice and run the respective Python file:
-bash
-Copy code
+```bash
 python project_name.py  
-Why These Projects?
+```
+
+# Why These Projects?
+
 Beginner-Friendly: Ideal for newcomers to Python or programming in general.
 Intermediate-Level Challenge: Helps bridge the gap between beginner concepts and more advanced programming techniques.
 Skill Development: Covers fundamental concepts like control flow, data structures, file handling, and user input.
-Contributing
-Feel free to fork this repository and submit pull requests with improvements or additional features. Contributions are always welcome!
 
+
+# Contributing
+Feel free to fork this repository and submit pull requests with improvements or additional features. Contributions are always welcome!
