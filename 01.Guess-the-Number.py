@@ -9,14 +9,20 @@ tries = 0
 guess = 0
 
 while (guess != number):
-  guess = int(input("Enter the number: "))
-  if (guess < number):
-    print("The number is Lesser than the actual number.")
-    tries += 1
-  else:
-    print("The number is Greater than the actual number.")
-    tries += 1
+    try:  # Added error handling for invalid input
+        guess = int(input("Enter the number: "))
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+        continue # Go back to the beginning of the loop
+
+    if (guess < number):
+        print("The number is Lesser than the actual number.")
+        tries += 1
+    elif (guess > number): # Added 'elif' for efficiency
+        print("The number is Greater than the actual number.")
+        tries += 1
+    else: # This 'else' catches the correct guess, avoiding unnecessary iteration
+        break # Exit the loop when the number is guessed correctly
 
 print(f"The actual number is {number} & you guessed it in {tries} tries.")
 print("Thanks for playing the game.")
-  
